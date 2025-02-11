@@ -1,7 +1,7 @@
 import React from 'react';
 import './ExploreMenu.css';
 import { menu_list } from '../../Assets/assets';
-const ExploreMenu = () => {// mount the component in home.jsx
+const ExploreMenu = ({category, setCategory}) => {// mount the component in home.jsx
     return (
         <div className='explore-menu' id='explore-menu'>
             <h1>Explore Our Menu</h1>
