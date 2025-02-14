@@ -1,6 +1,6 @@
 import React from 'react';
 import './ExploreMenu.css';
-import { menu_list } from '../../Assets/assets';
+import { menu_list } from '../../assets/assets';
 const ExploreMenu = ({category, setCategory}) => {// mount the component in home.jsx
     return (
         <div className='explore-menu' id='explore-menu'>

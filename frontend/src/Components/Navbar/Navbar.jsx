@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import {assets} from '../../Assets/assets';
+import {assets} from '../../assets/assets';
 
 const Navbar = () => { //mount the component in app.jsx
     const [menu, setMenu] = useState("Home"); 

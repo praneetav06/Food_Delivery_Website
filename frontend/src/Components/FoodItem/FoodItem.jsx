@@ -1,9 +1,9 @@
 import React from 'react';
 import './FoodItem.css';
-import {assets} from '../../Assets/assets';
+import {assets} from '../../assets/assets';
 
 const FoodItem = ({id,name,price,description,image}) => {
-    return (  
+    return (
         <div className='food-item'>
             <div className="food-item-img-container">
                 <img src={image} alt="food-item-image" className="food-item-image" />
