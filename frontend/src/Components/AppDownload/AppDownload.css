@@ -20,3 +20,9 @@
 .app-download-platforms img:hover {
   transform: scale(1.5);
 }
+@media screen and (max-width: 750px) {
+  .app-download-platforms img:hover {
+    transform: scale(1.25);
+    gap: 30px;
+  }
+}
