@@ -3,7 +3,7 @@ import fs from "fs"; //file system pre-built in nodejs
 
 //Add food item
 const addFood = async (req, res) => {
-  let image_filename = `${req.file.filename}`;
+  let image_filename = `${req.body.filename}`;
   const food = new foodModel({
     name: req.body.name,
     description: req.body.description,

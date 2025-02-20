@@ -21,6 +21,10 @@
     border-radius: 5px 0px 0px 5px;
     cursor: pointer;
 }
+.sidebar-option.active {
+    background-color: #fff0ed;
+    border-color: tomato;
+}
 @media screen and (max-width:900px) {
     .sidebar-option p{
         display: none;
