@@ -7,7 +7,7 @@ const AppDownload = () => {
   return (
     <div className="app-download" id="app-download">
       <p>
-        For better experience Download the
+        For better experience download the
         <br /> Tomato App
       </p>
       <div className="app-download-platforms">
