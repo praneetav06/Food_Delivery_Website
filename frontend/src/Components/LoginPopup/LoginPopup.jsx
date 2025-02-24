@@ -1,10 +1,25 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./LoginPopup.css";
 import { assets } from "../../assets/assets";
+import { StoreContext } from "../../Context/StoreContext";
 
 const LoginPopup = ({ setShowLogin }) => {
   // mount the component in app.jsx
+  const { url } = useContext(StoreContext);
   const [currState, setCurrState] = useState("Sign Up");
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    password: "",
+  });
+  const onChangeHandler = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+    setData((data) => ({ ...data, [name]: value }));
+  };
+  // useEffect(() => {
+  //   console.log(data);
+  // }, [data]);
   return (
     <div className="login-popup">
       <form className="login-popup-container">
@@ -20,10 +35,31 @@ const LoginPopup = ({ setShowLogin }) => {
           {currState === "Login" ? (
             <></>
           ) : (
-            <input type="text" placeholder="Your Name" required />
+            <input
+              type="text"
+              name="name"
+              onChange={onChangeHandler}
+              value={data.name}
+              placeholder="Your Name"
+              required
+            />
           )}
-          <input type="email" placeholder="Your E-Mail" required />
-          <input type="password" placeholder="Password" required />
+          <input
+            name="email"
+            onChange={onChangeHandler}
+            value={data.email}
+            type="email"
+            placeholder="Your E-Mail"
+            required
+          />
+          <input
+            name="password"
+            onChange={onChangeHandler}
+            value={data.password}
+            type="password"
+            placeholder="Password"
+            required
+          />
         </div>
         <button>{currState === "Sign Up" ? "Create Account" : "Login"}</button>
         <div className="login-popup-condition">
