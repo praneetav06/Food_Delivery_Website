@@ -17,12 +17,15 @@ const LoginPopup = ({ setShowLogin }) => {
     const value = event.target.value;
     setData((data) => ({ ...data, [name]: value }));
   };
+  const onLogin = async (event) => {
+    event.preventDefault();
+  };
   // useEffect(() => {
   //   console.log(data);
   // }, [data]);
   return (
     <div className="login-popup">
-      <form className="login-popup-container">
+      <form onSubmit={onLogin} className="login-popup-container">
         <div className="login-popup-title">
           <h2>{currState}</h2>
           <img
@@ -61,7 +64,9 @@ const LoginPopup = ({ setShowLogin }) => {
             required
           />
         </div>
-        <button>{currState === "Sign Up" ? "Create Account" : "Login"}</button>
+        <button type="submit">
+          {currState === "Sign Up" ? "Create Account" : "Login"}
+        </button>
         <div className="login-popup-condition">
           <input type="checkbox" required />
           <p>By continuing, I agree to the terms of use and privacy policy</p>
