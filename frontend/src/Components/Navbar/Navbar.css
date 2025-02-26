@@ -54,7 +54,7 @@
 .navbar-profile {
   position: relative;
 }
-.navbar-profile-dropdown {
+.nav-profile-dropdown {
   position: absolute;
   display: none;
   right: 0;
@@ -67,8 +67,8 @@
   background-color: #fff2ef;
   padding: 10px 25px;
   border-radius: 5px;
-  border: 1px solid tomato;
-  outline: 2px solid white;
+  border: 5px solid tomato;
+  outline: 5px solid white;
   list-style: none;
 }
 .nav-profile-dropdown li {
