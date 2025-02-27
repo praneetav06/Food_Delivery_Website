@@ -92,11 +92,11 @@ export const menu_list = [
     menu_image: menu_2,
   },
   {
-    menu_name: "Deserts",
+    menu_name: "Desserts",
     menu_image: menu_3,
   },
   {
-    menu_name: "Sandwich",
+    menu_name: "Sandwiches",
     menu_image: menu_4,
   },
   {
@@ -197,7 +197,7 @@ export const food_list = [
     price: 14,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "Deserts",
+    category: "Desserts",
   },
   {
     _id: "10",
@@ -206,7 +206,7 @@ export const food_list = [
     price: 22,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "Deserts",
+    category: "Desserts",
   },
   {
     _id: "11",
@@ -215,7 +215,7 @@ export const food_list = [
     price: 10,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "Deserts",
+    category: "Desserts",
   },
   {
     _id: "12",
@@ -224,43 +224,43 @@ export const food_list = [
     price: 12,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "Deserts",
+    category: "Desserts",
   },
   {
     _id: "13",
-    name: "Chicken Sandwich",
+    name: "Chicken Sandwiches",
     image: food_13,
     price: 12,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "Sandwich",
+    category: "Sandwiches",
   },
   {
     _id: "14",
-    name: "Vegan Sandwich",
+    name: "Vegan Sandwiches",
     image: food_14,
     price: 18,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "Sandwich",
+    category: "Sandwiches",
   },
   {
     _id: "15",
-    name: "Grilled Sandwich",
+    name: "Grilled Sandwiches",
     image: food_15,
     price: 16,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "Sandwich",
+    category: "Sandwiches",
   },
   {
     _id: "16",
-    name: "Bread Sandwich",
+    name: "Bread Sandwiches",
     image: food_16,
     price: 24,
     description:
       "Food provides essential nutrients for overall health and well-being",
-    category: "Sandwich",
+    category: "Sandwiches",
   },
   {
     _id: "17",
