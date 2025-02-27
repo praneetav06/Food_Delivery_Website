@@ -5,6 +5,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Outfit;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 body {
   min-height: 100vh;
