@@ -2,10 +2,10 @@
   display: grid;
   grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
   align-items: start;
-  gap: 30px;
+  gap: 20px;
   border: 1px solid tomato;
   padding: 20px;
-  margin: 30px 0px;
+  margin: 20px 0px;
   font-size: 15px;
   color: #505050;
 }
@@ -23,7 +23,7 @@
 .order-item select {
   background-color: #ffe8e4;
   border: 1px solid tomato;
-  width: max(10vw, 120px);
+  width: max(10vw, 170px);
   padding: 10px;
   outline: none;
 }
