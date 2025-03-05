@@ -1,6 +1,6 @@
 import React from "react";
 import "./AppDownload.css";
-import { assets } from "../../assets/assets";
+import { assets } from "../../Assets/assets.js";
 
 const AppDownload = () => {
   //mount the component in Home.jsx
