@@ -5,7 +5,7 @@ import axios from "axios";
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "https://food-delivery-website-backend-ac0z.onrender.com";
+  const url = "https://food-delivery-website-backend-43wv.onrender.com";
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]); // fetch data from db
   const addToCart = async (itemId) => {
