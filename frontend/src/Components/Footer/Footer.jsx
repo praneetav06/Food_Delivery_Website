@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import { assets } from "../../assets/assets";
 const Footer = () => {
   //mount footer in app component
