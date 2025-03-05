@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import "./Navbar.css";
-import { assets } from "../../assets/assets.js";
+import assets from "../../assets/assets.js";
 import { Link, useNavigate } from "react-router-dom";
-import { StoreContext } from "../../Context/StoreContext";
+import { StoreContext } from "../../Context/StoreContext.jsx";
 
 const Navbar = ({ setShowLogin }) => {
   //mount the component in app.jsx
