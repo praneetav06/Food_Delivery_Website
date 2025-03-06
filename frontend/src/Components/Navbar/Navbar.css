@@ -100,6 +100,9 @@
   .navbar-right button {
     padding: 8px 25px;
   }
+  .admin-panel {
+    padding: 5px 15px;
+  }
 }
 @media screen and (max-width: 900px) {
   .navbar .logo {
@@ -119,9 +122,16 @@
     padding: 6px 20px;
     font-size: 15px;
   }
+  .admin-panel {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 750px) {
   .navbar-menu {
+    display: none;
+  }
+  .admin-panel {
     display: none;
   }
 }
