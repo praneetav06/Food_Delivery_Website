@@ -49,6 +49,14 @@ const Navbar = ({ setShowLogin }) => {
           Contact-us
         </a>
       </ul>
+      <button>
+        <a
+          href="https://food-delivery-website-admin-lsv1.onrender.com/"
+          target="_blank"
+        >
+          Admin
+        </a>
+      </button>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
