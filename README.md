@@ -1,4 +1,4 @@
-## Tomato - Food Delivery Website (MERN Stack)
+### Tomato - Food Delivery Website (MERN Stack)
 
 ## 📌 Project Overview
 
