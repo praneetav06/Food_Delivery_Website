@@ -50,24 +50,13 @@ const Navbar = ({ setShowLogin }) => {
         </a>
       </ul>
       <div className="navbar-right">
-        <button
-          onClick={() => {
-            const token = localStorage.getItem("authToken"); // Check if the user is logged in
-
-            if (!token) {
-              alert("You must be logged in to access the admin panel!");
-              return;
-            }
-
-            // Open Admin Panel in a new tab
-            window.open(
-              "https://food-delivery-website-admin-lsv1.onrender.com",
-              "_blank"
-            );
-          }}
-          className="admin-panel"
-        >
-          Admin
+        <button className="admin-panel">
+          <a
+            href="https://food-delivery-website-admin-lsv1.onrender.com"
+            target="_blank"
+          >
+            Admin
+          </a>
         </button>
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
