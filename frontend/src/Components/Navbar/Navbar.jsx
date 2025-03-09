@@ -50,14 +50,18 @@ const Navbar = ({ setShowLogin }) => {
         </a>
       </ul>
       <div className="navbar-right">
-        <button className="admin-panel">
-          <a
-            href="https://food-delivery-website-admin-lsv1.onrender.com"
-            target="_blank"
-          >
-            Admin
-          </a>
-        </button>
+        {token ? (
+          <button className="admin-panel">
+            <a
+              href="https://food-delivery-website-admin-lsv1.onrender.com"
+              target="_blank"
+            >
+              Admin
+            </a>
+          </button>
+        ) : (
+          <></>
+        )}
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
           <Link to="/Cart">
