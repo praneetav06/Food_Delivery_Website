@@ -10,6 +10,7 @@ Tomato is a full-stack food delivery website built using the MERN (MongoDB, Expr
 - User authentication and authorization (JWT-based).
 - Integrated Stripe for seamless payment processing.
 - Smooth UI/UX with animations and navigation.
+- used toast notifications from react-toastify
 
 # Backend (Node.js, Express.js, MongoDB)
 - MVC (Model-View-Controller) architecture for clean and scalable code.
