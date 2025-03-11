@@ -24,6 +24,9 @@ Tomato is a full-stack food delivery website built using the MERN (MongoDB, Expr
 - Order tracking and status updates.
 - User role management (Admin/User).
 
+# Database 
+- MongoDB Atlas 
+
 # Frontend
 - React.js
 - CSS
